@@ -1,8 +1,8 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    color: #49db1d; /* Verde suave */
-    background-color: #82d1f5; /* Celeste suave para un fondo más tranquilo */
+    color: #4A4A4A; /* Gris oscuro suave para texto */
+    background-color: #E6F3FA; /* Celeste claro para el fondo */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -10,15 +10,15 @@ body {
 
 /* Header más animado y profesional */
 header {
-    background:  #c9d783; /* Degradado naranja cálido */
+    background: #F9E4E8; /* Rosa pastel */
     padding: 20px;
-    color: #631605;
+    color: #4A4A4A; /* Gris oscuro para el texto */
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra más marcada */
-    border-bottom: 3px solid #6ab04c; /* Borde inferior verde */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-bottom: 3px solid #C8E6C9; /* Borde verde menta */
 }
 
 header h1 {
@@ -27,7 +27,7 @@ header h1 {
     letter-spacing: 2px;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra más suave */
 }
 
 nav ul {
@@ -43,21 +43,21 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: #ffffff; /* Blanco para destacar */
-    color: #404cf7; /* Naranja cálido */
+    background-color: #FFFFFF; /* Blanco para destacar */
+    color: #4A4A4A; /* Gris oscuro */
     font-size: 18px;
     text-decoration: none;
     padding: 12px 25px;
     border-radius: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
     font-weight: bold;
-    border: 2px solid #f7a440; /* Borde naranja */
+    border: 2px solid #C8E6C9; /* Borde verde menta */
 }
 
 nav ul li a:hover {
-    background-color:#631605; /* Naranja más oscuro en hover */
-    color: white;
-    border-color: white; /* Cambia el color del borde al pasar el ratón */
+    background-color: #C8E6C9; /* Verde menta en hover */
+    color: #FFFFFF; /* Blanco para contraste */
+    border-color: #EDE7F6; /* Borde lavanda claro */
 }
 
 /* Ajustar el contenido por el header fijo */
@@ -71,8 +71,8 @@ main {
 }
 
 .hero-buttons button {
-    background-color:#c9d783; /* Rosa fluor */
-    color: white;
+    background-color: #C8E6C9; /* Verde menta */
+    color: #FFFFFF; /* Blanco para contraste */
     font-size: 24px;
     padding: 20px 40px;
     margin: 10px;
@@ -83,12 +83,12 @@ main {
 }
 
 .hero-buttons button:hover {
-    background-color: #ff69b4; /* Más claro al pasar el ratón */
+    background-color: #EDE7F6; /* Lavanda claro al pasar el ratón */
     transform: translateY(-5px); /* Efecto de levantar al hover */
 }
 
 .hero-buttons button a {
-    color: white;
+    color: #FFFFFF; /* Blanco */
     text-decoration: none;
 }
 
@@ -99,18 +99,17 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin:30px 35px;
+    margin: 30px 35px;
     margin-bottom: 50px;
 }
 
 .producto {
     display: flex;
     align-items: center;
-    background-color: #f4f4f4; /* Fondo gris claro y suave */
+    background-color: #F9F9F9; /* Fondo gris muy claro */
     border-radius: 15px;
     padding: 20px;
-    
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra más suave */
     width: 100%;
     transition: transform 0.3s ease;
 }
@@ -147,12 +146,12 @@ main {
 
 .descripcion h2 {
     font-size: 28px;
-    color: #4a773c;
+    color: #4A4A4A; /* Gris oscuro */
 }
 
 .descripcion p {
     font-size: 18px;
-    color: #555; /* Texto más suave */
+    color: #6B7280; /* Gris medio para texto secundario */
 }
 
 /* Sección de preguntas frecuentes (FAQs) */
@@ -164,26 +163,26 @@ main {
 
 .faq h2 {
     font-size: 32px;
-    color: #4a773c;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra ligera en el título */
+    color: #4A4A4A; /* Gris oscuro */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 .faq-item {
-    background-color: #f7f7f7; /* Fondo más claro */
+    background-color: #F9F9F9; /* Fondo gris claro */
     padding: 20px;
     margin: 10px 0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave */
 }
 
 .faq-item h3 {
     font-size: 24px;
-    color: #6ab04c;
+    color: #C8E6C9; /* Verde menta para títulos */
 }
 
 .faq-item p {
     font-size: 18px;
-    color: #555; /* Texto más suave */
+    color: #6B7280; /* Gris medio */
 }
 
 /* Sección de promociones */
@@ -194,21 +193,21 @@ main {
 
 .promociones h2 {
     font-size: 32px;
-    color: #4a773c;
+    color: #4A4A4A; /* Gris oscuro */
 }
 
 .promo-item {
-    background-color: #f7f7f7; /* Fondo más claro */
+    background-color: #F9F9F9; /* Fondo gris claro */
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sombra suave */
 }
 
 /* Footer con redes sociales */
 footer {
-    background-color: #6ab04c;
-    color: white;
+    background-color: #D6EAF8; /* Azul pastel */
+    color: #4A4A4A; /* Gris oscuro */
     text-align: center;
     padding: 30px 0;
 }
@@ -223,7 +222,7 @@ footer p {
 }
 
 .social-buttons a {
-    color: white;
+    color: #4A4A4A; /* Gris oscuro */
     font-size: 18px;
     margin: 0 15px;
     text-decoration: none;
@@ -231,6 +230,5 @@ footer p {
 }
 
 .social-buttons a:hover {
-    color: #ff1493; /* Rosa fluor al pasar el ratón */
+    color: #C8E6C9; /* Verde menta al pasar el ratón */
 }
-    
